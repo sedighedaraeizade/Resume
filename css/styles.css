@@ -55,6 +55,7 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  direction: ltr;
   display: block;
 }
 
@@ -75,6 +76,8 @@ body {
 }
 
 hr {
+  direction: ltr;
+  text-align:left;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
@@ -127,7 +130,7 @@ dt {
 
 dd {
   margin-bottom: 0.5rem;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 blockquote {
